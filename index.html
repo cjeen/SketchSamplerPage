@@ -37,32 +37,26 @@
     <hr>
     <!-- Paper Title -->
     <div class="container text-center">
-        <a class="blog-header-logo text-body-emphasis" href="#">Paper Title</a>
+        <a class="blog-header-logo text-body-emphasis" href="#">SketchSampler: Sketch-based 3D Reconstruction <br>via View-dependent Depth Sampling</a>
     </div>
     <hr>
     <!-- author list -->
     <div class="container text-center">
         <div class="row">
-            <div class="col">
-                <p class="fs-5"><a href="#" class="link-body-emphasis">first author</a><sup>1</sup></p>
-            </div>
-            <div class="col"><p class="fs-5">second author<sup>1</sup></p></div>
-            <div class="col"><p class="fs-5">second author<sup>1</sup></p></div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <p class="fs-5"><a href="#" class="link-body-emphasis">first author</a><sup>2</sup></p>
-            </div>
-            <div class="col"><p class="fs-5">second author<sup>2</sup></p></div>
+            <div class="col"><p class="fs-5">Chenjian Gao<sup>1</sup></p></div>
+            <div class="col"><p class="fs-5"><a href="https://yuqian1023.github.io/" class="link-body-emphasis">Qian Yu</a><sup>1</sup></p></div>
+            <div class="col"><p class="fs-5"><a href="https://lucassheng.github.io/" class="link-body-emphasis">Lu Sheng</a><sup>1</sup></p></div>
+            <div class="col"><p class="fs-5"><a href="http://personal.ee.surrey.ac.uk/Personal/Y.Song/" class="link-body-emphasis">Yi-Zhe Song</a><sup>2</sup></p></div>
+            <div class="col"><p class="fs-5">Dong Xu<sup>3</sup></p></div>
         </div>
     </div>
     <!-- author organization -->
     <div class="text-center">
-        <p class="fs-6"><sup>1</sup>Beihang University &nbsp;&nbsp;<sup>2</sup>Google Research</p>
+        <p class="fs-6"><sup>1</sup>Beihang University &nbsp;&nbsp;<sup>2</sup>University of Surrey</p>&nbsp;&nbsp;<sup>3</sup>The University of Hong Kong</p>
     </div>
     <!-- paper status -->
     <div class="text-center">
-        <h3>Paper status - Under Review</h3>
+        <h3>ECCV 2022</h3>
     </div>
     <!-- links -->
     <div class="text-center">
@@ -70,7 +64,7 @@
             <div class="col col-lg-3">
                 <!-- more svg icon can bre found in:  https://icons.getbootstrap.com/?q=github -->
                 <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"
-                   href="#">
+                   href="https://arxiv.org/pdf/2208.06880">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                          class="bi bi-newspaper" viewBox="0 0 16 16">
                         <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
@@ -81,14 +75,13 @@
             </div>
             <div class="col col-lg-3">
                 <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"
-                   href="#">
+                   href="https://github.com/cjeen/sketchsampler">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                          class="bi bi-github" viewBox="0 0 16 16">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                     </svg>
                     <h3>Code</h3>
                 </a>
-                (Coming Soon)
             </div>
         </div>
     </div>
@@ -98,7 +91,7 @@
     <div class="text-center">
         <figure class="figure">
             <img src="./assets/teaser.png" class="img-thumbnail figure-img img-fluid rounded" alt="teaser">
-            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+            <!-- <figcaption class="figure-caption">Sketch-to-pointcloud generation results of our proposed SketchSampler.</figcaption> -->
         </figure>
     </div>
 
@@ -111,41 +104,20 @@
         <div class="card-body">
             <h2 class="card-title text-center card-title-margin">Abstract</h2>
             <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo
-                dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero,
-                elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate
-                dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue
-                felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla
-                vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl,
-                porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras
-                volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam.
-                Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+                Reconstructing a 3D shape based on a single sketch image is challenging due to the large domain gap 
+                between a sparse, irregular sketch and a regular, dense 3D shape. Existing works try to employ the 
+                global feature extracted from sketch to directly predict the 3D coordinates, but they usually suffer 
+                from losing fine details that are not faithful to the input sketch. Through analyzing the 3D-to-2D 
+                projection process, we notice that the density map that characterizes the distribution of 2D point 
+                clouds(i.e., the probability of points projected at each location of the projection plane) can be used 
+                as a proxy to facilitate the reconstruction process. To this end, we first translate a sketch via an 
+                image translation network to a more informative 2D representation that can be used to generate a density 
+                map. Next, a 3D point cloud is reconstructed via a two-stage probabilistic sampling process: first 
+                recovering the 2D points(i.e., the x and y coordinates) by sampling the density map; and then predicting 
+                the depth(i.e., the z coordinate) by sampling the depth values at the ray determined by each 2D point. 
+                Extensive experiments are conducted, and both quantitative and qualitative results show that our proposed 
+                approach significantly outperforms other baseline methods.
             </p>
-        </div>
-    </div>
-    <br>
-
-    <!-- Online Demo -->
-    <div class="card">
-        <div class="card-body">
-            <h2 class="card-title card-title-margin">Online Demo</h2>
-            <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo
-                dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero,
-                elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate
-                dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue
-                felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla
-                vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl,
-                porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras
-                volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam.
-                Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-            </p>
-            <div class="text-center">
-                <figure class="figure">
-                    <img src="./assets/method_diagram.png" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
-                </figure>
-            </div>
         </div>
     </div>
     <br>
@@ -154,85 +126,18 @@
     <div class="card">
         <div class="card-body">
             <h2 class="card-title card-title-margin">Methodology</h2>
-            <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo
-                dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero,
-                elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate
-                dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue
-                felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla
-                vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl,
-                porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras
-                volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam.
-                Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-            </p>
             <div class="text-center">
                 <figure class="figure">
                     <img src="./assets/method_diagram.png" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                    <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
                 </figure>
             </div>
-        </div>
-    </div>
-    <br>
-
-    <!-- Experiments -->
-    <div class="card">
-        <div class="card-body">
-            <h2 class="card-title card-title-margin">Experiments</h2>
             <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo
-                dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero,
-                elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate
-                dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue
-                felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla
-                vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl,
-                porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras
-                volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam.
-                Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-            </p>
-            <br>
-
-            <!-- Table example -->
-            <table class="table">
-                <thead>
-                <tr class="table-primary">
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                </tr>
-                </thead>
-                <tbody class="table-group-divider">
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <br>
-
-    <!-- Supplementary Material -->
-    <div class="card">
-        <div class="card-body">
-            <h2 class="card-title card-title-margin">Supplementary Material</h2>
-            <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo
-                dapibus sit amet.
+                our sketch-based modeling framework mainly consists of two components: a sketch translator and a point cloud 
+                generator. Given an input sketch I, the sketch translator first translates it to a feature map F . Next, the 
+                point cloud generator produces a point cloud S based on the given feature map F . When recovering the point cloud, 
+                a 2D density map is first predicted, from which 2D points are sampled; then the depth of each 2D point is predicted 
+                by using the proposed conditional depth generator.
             </p>
         </div>
     </div>
@@ -243,11 +148,11 @@
         <div class="card-body">
             <h2 class="card-title card-title-margin">Citation</h2>
             <p id="bibtex" class="card-text" style="border: #1a1c20 1px">
-                <code> @article{author20XXtitle,<br>
-                    &nbsp;&nbsp;title={Please cite me},<br>
-                    &nbsp;&nbsp;author={Author, First and Author, Second and Author, Third},<br>
-                    &nbsp;&nbsp;booktitle={arXiv preprint},<br>
-                    &nbsp;&nbsp;year={20XX}<br>
+                <code> @inproceedings{gaosketchsampler,<br>
+                    &nbsp;&nbsp;title={SketchSampler: Sketch-based 3D Reconstruction via View-dependent Depth Sampling},<br>
+                    &nbsp;&nbsp;author={Gao, Chenjian and Yu, Qian and Sheng, Lu and Song, Yi-Zhe and Xu, Dong},<br>
+                    &nbsp;&nbsp;booktitle={European Conference on Computer Vision},<br>
+                    &nbsp;&nbsp;year={2022}<br>
                     }
                 </code>
             </p>

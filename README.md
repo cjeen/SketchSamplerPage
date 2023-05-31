@@ -39,7 +39,7 @@ address [GITHUB_USERNAME.github.io/REPO_NAME](GITHUB_USERNAME.github.io/REPO_NAM
 
 ## Used by
 
-- [Inversion-by-Inversion](https://ximinng.github.io/inversion-by-inversion-project/)
+- [SketchSampler](https://github.com/cjeen/sketchsampler/)
 
 ## License
 
